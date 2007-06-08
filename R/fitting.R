@@ -1,7 +1,7 @@
 fitting <- function(degree.dist,nmax){
 
 
-
+n.regions<-length(degree.dist)
 tmp<-hist(degree.dist,breaks=c(0:nmax))
 cum.dist<-1-cumsum(tmp$counts)/n.regions # cumulative distribution of degree.dist
 

@@ -1,6 +1,15 @@
 /* Study of the connexity of networks */
 
 
+/* Internal function to return the ij th element of a matrix */
+
+int ij(int i, int j, int nrow)
+{
+  return (nrow*j+i);
+}
+
+
+
 /* Internal function to return the component reachable by the 
  node  num_node*/
 

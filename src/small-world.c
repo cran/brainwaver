@@ -6,13 +6,13 @@
 
 
 
-/* Internal function to return the ij th element of a matrix */
+/* Internal function to return the ij th element of a matrix
 
 int ij(int i, int j, int nrow)
 {
   return (nrow*j+i);
 }
-
+*/
 
 /* $$$$ */  
 /* Rkfun */
