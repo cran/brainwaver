@@ -2,15 +2,15 @@ read.var.txt <- function()
 {
 
 
-tmp<-read.table("wave_var_mat_level_1.txt",skip=0,nrow=1)
+tmp<-read.table("wave_var_mat_level_1.txt",skip=0,nrows=1)
 
 version<-tmp[[1]]
 
-tmp<-read.table("wave_var_mat_level_1.txt",skip=1,nrow=1)
+tmp<-read.table("wave_var_mat_level_1.txt",skip=1,nrows=1)
 
 if(tmp[[2]]!= "Variance") stop("The files are not of class variance matrix")
 
-tmp<-read.table("wave_var_mat_level_1.txt",skip=2,nrow=1)
+tmp<-read.table("wave_var_mat_level_1.txt",skip=2,nrows=1)
 method<-tmp[[1]]
 wf<-tmp[[2]]
 boundary<-tmp[[3]]
