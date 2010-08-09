@@ -13,8 +13,6 @@ reg.sw(n.nodes.rand, n.edges.rand, dist.mat)
   \item{n.edges.rand}{number of edges of the graph}
 \item{dist.mat}{matrix with a distance associated to each pair of nodes of the graph to take into account in the computation of the small-world parameters.}
 }
-\details{
-}
 \value{
 \item{in.degree}{mean of the degree for the whole graph.}
   \item{Lp.rand}{mean of the minimum path length for the whole graph.}
@@ -32,7 +30,6 @@ A Resilient, Low-Frequency, Small-World Human Brain Functional Network with High
 
 }
 \author{S. Achard}
-\note{}
 \seealso{\code{\link{rand.sw}},\code{\link{equadist.rand.sw}}  }
 \examples{
 mat<-sim.reg(8,20)

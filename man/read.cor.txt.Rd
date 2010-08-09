@@ -25,7 +25,6 @@ For \code{read.cor.txt} function : Object of class \code{"Wave Correlation"}, ba
  \item{lowerd?}{matrix containing the lower bound of the correlation for each scale of the wavelet decomposition.}
  \item{upperd?}{matrix containing the upper bound of the correlation for each scale of the wavelet decomposition.}
 }
-\references{}
 \author{S. Achard}
 \note{change between version 1 and 2, now the length of the time series and the number of time series are saved with 
 the values of the correlation.}

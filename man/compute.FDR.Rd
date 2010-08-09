@@ -23,7 +23,6 @@ The control of the false discovery rate in multiple testing under dependency. \e
 }
 \author{S. Achard}
 \note{The GeneTS package have also an implementation of this function }
-\seealso{}
 \examples{
 
 data(young)

@@ -17,8 +17,6 @@ reg.eff(n.nodes.rand, n.edges.rand, dist.mat)
   \item{n.edges.rand}{number of edges of the simulated graphs}
 \item{dist.mat}{matrix with a distance associated to each pair of nodes of the graph to take into account in the computation of the efficiency values.}
 }
-\details{
-}
 \value{
 \item{eff}{global efficiency for the whole graph}
 \item{loc}{local efficiency for th whole graph}

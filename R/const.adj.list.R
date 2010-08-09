@@ -27,8 +27,8 @@ const.adj.list <- function(wave.cor.list, wave.var.ind = 0, n.ind = 0, thresh = 
     if(wave.var.ind == 0){
       wave.adj.list[[i]]<-const.adj.mat(cor.mat=wave.cor.list[[i]], n.ind = n.ind, thresh = thresh, sup = sup, test.method= test.method, proc.length = proc.length, use.tanh=use.tanh,num.levels=i)
     }else{
-      if(class(wave.var.list != "Wavelet variance")) stop("Incorrect type of data for the variance")
-      wave.adj.list[[i]]<-const.adj.mat(cor.mat=wave.cor.list[[i]], wave.var.mat = wave.var.list[[i]], n.ind = n.ind, thresh = thresh, sup = sup, test.method= test.method, proc.length = proc.length, use.tanh=use.tanh,num.levels=i)
+      if(class(wave.var.ind != "Wavelet variance")) stop("Incorrect type of data for the variance")
+      wave.adj.list[[i]]<-const.adj.mat(cor.mat=wave.cor.list[[i]], var.ind.mat = wave.var.ind[[i]], n.ind = n.ind, thresh = thresh, sup = sup, test.method= test.method, proc.length = proc.length, use.tanh=use.tanh,num.levels=i)
     }
   }
 

@@ -13,8 +13,6 @@ read.convert_1_2(proc.length)
 \arguments{
   \item{proc.length}{ specifies the length of the original processes using to construct the \code{cor.mat}}~~Describe \code{proc.length}
 }
-\details{
-}
 \value{
  Object of class \code{"Wave Correlation"}, basically, a list with the following
   components
@@ -22,7 +20,6 @@ read.convert_1_2(proc.length)
  \item{lowerd?}{matrix containing the lower bound of the correlation for each scale of the wavelet decomposition.}
  \item{upperd?}{matrix containing the upper bound of the correlation for each scale of the wavelet decomposition.}
 }
-\references{}
 \author{S. Achard}
 \note{only in version 1.2}
 \seealso{\code{\link{read.cor.txt}}, \code{\link{save.cor.txt}}}

@@ -15,9 +15,6 @@ small.world(wave.adj.mat, dat = "reduced", distance = "norm",
   \item{coord}{optional vector containing the coordinate of the nodes of the graph. }
  \item{export.data}{logical. If TRUE the correlation matrices with the upper and lower bound are exported to text file.}
 }
-\details{
-
-}
 \value{
   \item{in.degree.mean}{ real corresponding to the mean of the degree of all the nodes of the graph.}
  \item{in.degree}{vector containing the degree of each node of the graph.}
@@ -41,9 +38,6 @@ A Resilient, Low-Frequency, Small-World Human Brain Functional Network with High
 
 }
 \author{S. Achard}
-\note{
-}
-\seealso{}
 \examples{
 # fig 3 of Achard (2006)
 

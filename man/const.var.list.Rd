@@ -56,7 +56,6 @@ A Resilient, Low-Frequency, Small-World Human Brain Functional Network with High
 
 }
 \author{S. Achard}
-\note{}
 \seealso{\code{\link{const.cor.list}}, \code{\link{read.var.txt}}, \code{\link{save.var.txt}}}
 \examples{
 data(brain)

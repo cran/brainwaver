@@ -25,8 +25,6 @@ The simulation of a graph with a given degree distribution is not always possibl
 A matrix containing the adjacency matrix of the simulated graph.
 }
 \author{S. Achard}
-\note{}
-\seealso{}
 \examples{
 
 

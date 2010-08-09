@@ -39,7 +39,6 @@ const.adj.mat(cor.mat, var.ind.mat = 0, n.ind = 0, thresh = 0.05, sup = 0,
 A Resilient, Low-Frequency, Small-World Human Brain Functional Network with Highly Connected Association Cortical Hubs. \emph{Journal of Neuroscience}, Vol. 26, N. 1, pages 63-72. 
 }
 \author{S. Achard}
-\note{ }
 \seealso{ \code{\link{const.adj.list}}}
 \examples{
 data(brain)

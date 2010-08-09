@@ -12,11 +12,7 @@ fitting(degree.dist, nmax)
   \item{nmax}{maximum of the value of \code{degree.dist}.}
 }
 \details{
-The fitted laws are :
-
-\item{exponential law :}{...}
-\item{power law :}{...}
-\item{truncated power law :}{...}
+The fitted laws are : exponential law, power law and truncated power law.
 
 This function plots the histogram of \code{degree.dist} (dist.ps).
 This function plots also the cumulative distributions of the empirical and three fitted laws in a log-log scale (fitting.ps).
@@ -35,9 +31,6 @@ A new look at the statistical model identification
 \emph{IEEE Transactions on Automatic Control} Vol. 19, N. 6,pages 716-723. 
 }
 \author{S. Achard}
-\note{
-}
-\seealso{}
 \examples{
 data(brain)
 

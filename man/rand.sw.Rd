@@ -16,8 +16,6 @@ rand.sw(nsim, n.nodes.rand, n.edges.rand, dist.mat, dat = "reduced")
 \item{dist.mat}{matrix with a distance associated to each pair of nodes of the graph to take into account in the computation of the small-world parameters.}
   
 }
-\details{
-}
 \value{
 \item{in.degree}{mean of the degree for the whole graph.}
   \item{Lp.rand}{mean of the minimum path length for the whole graph.}
@@ -35,7 +33,6 @@ A Resilient, Low-Frequency, Small-World Human Brain Functional Network with High
 
 }
 \author{S. Achard}
-\note{}
 \seealso{\code{\link{equadist.rand.sw}},\code{\link{reg.sw}}  }
 \examples{
 mat<-sim.rand(8,20)

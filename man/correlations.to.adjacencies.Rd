@@ -35,8 +35,6 @@ Functions produced to manipulate better nice outputs of the package
 A Resilient, Low-Frequency, Small-World Human Brain Functional Network with Highly Connected Association Cortical Hubs. \emph{Journal of Neuroscience}, Vol. 26, N. 1, pages 63-72. 
  }
 \author{John Aspden, external collaborator of the brainwaver package}
-\note{
-}
 \seealso{\code{\link{const.cor.list}}}
 \examples{
 

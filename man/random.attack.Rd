@@ -34,8 +34,6 @@ Statistical mechanics of complex networks.
 A Resilient, Low-Frequency, Small-World Human Brain Functional Network with Highly Connected Association Cortical Hubs. \emph{Journal of Neuroscience}, Vol. 26, N. 1, pages 63-72. 
 }
 \author{S. Achard}
-\note{}
-\seealso{}
 \examples{
 
 set2<-array(c(5,6.5,7,6.5,5,3.5,3,3.5,1,1.5,3,4.5,5,4.5,3,1.5),dim=c(8,2))

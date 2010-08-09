@@ -35,7 +35,6 @@ See the library package \code{waveslim} (Whitcher, 2000).
   \item{wavelet}{Name of the wavelet filter used.}
   \item{boundary}{How the boundaries were handled.}
 }
-}
 \references{ 
 R. Gencay, F. Selcuk and B. Whitcher (2001)
   \emph{An Introduction to Wavelets and Other Filtering Methods in
@@ -49,8 +48,6 @@ R. Gencay, F. Selcuk and B. Whitcher (2001)
 
 }
 \author{ S. Achard }
-\note{}
-\seealso{}
 \examples{
 
 data(brain) # the result brain is a matrix

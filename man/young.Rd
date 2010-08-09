@@ -9,9 +9,6 @@
 \format{
   A data frame with 518 observations on the following 90 variables.
 }
-\details{
-
-}
 \source{
 contact S. Achard (sa428@cam.ac.uk)
 }

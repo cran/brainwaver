@@ -40,7 +40,6 @@ Each hypothesis test is written as :
 A Resilient, Low-Frequency, Small-World Human Brain Functional Network with Highly Connected Association Cortical Hubs. \emph{Journal of Neuroscience}, Vol. 26, N. 1, pages 63-72. 
 }
 \author{S. Achard}
-\note{ }
 \seealso{ \code{\link{const.adj.mat}}}
 \examples{
 data(brain)

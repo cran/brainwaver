@@ -24,7 +24,6 @@ For \code{read.var.txt} function : Object of class \code{"Wave Variance"}, basic
  \item{lowerd?}{vector containing the lower bound of the variance for each scale of the wavelet decomposition.}
  \item{upperd?}{vector containing the upper bound of the variance for each scale of the wavelet decomposition.}
 }
-\references{}
 \author{S. Achard}
 \note{change between version 1 and 2, now the length of the time series and the number of the time series are saved with 
 the values of the correlation.}

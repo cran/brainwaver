@@ -33,7 +33,6 @@ A Resilient, Low-Frequency, Small-World Human Brain Functional Network with High
 
 }
 \author{S. Achard}
-\note{}
 \seealso{\code{\link{sim.equadist}}, \code{\link{rand.sw}}, \code{\link{reg.sw}} }
 \examples{
 

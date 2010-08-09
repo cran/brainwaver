@@ -36,7 +36,6 @@ A Resilient, Low-Frequency, Small-World Human Brain Functional Network with High
 }
 \author{S. Achard}
 \note{only in version 2 and higher}
-\seealso{}
 \examples{
 data(brain)
 brain<-as.matrix(brain)
