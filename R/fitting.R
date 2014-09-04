@@ -1,4 +1,4 @@
-fitting <- function(degree.dist,nmax){
+fitting <- function(degree.dist,nmax,outFile="fitting.txt"){
 
 
 n.regions<-length(degree.dist)
@@ -52,7 +52,7 @@ fitting<-paste(fitting,AIC.trunc,sep=" ")
 
 # file with all the value of the fittings
 
-write.table(fitting,"fitting.txt",row.names=FALSE,col.names=FALSE,quote=FALSE)
+write.table(fitting,outFile,row.names=FALSE,col.names=FALSE,quote=FALSE)
 
 list(mu = mu, gamma = gamma, alpha = alpha, beta = beta)
 
